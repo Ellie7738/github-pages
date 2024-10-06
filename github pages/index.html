@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">about</a></li>
+            <li>
+                <a href="documents/Resume.pdf" target="_blank" rel="noopener noreferrer" 
+                   onclick="window.open(this.href, '_blank'); return false;">Resume</a>
+            </li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="parallax-section">
+        <div class="parallax-bg"></div>
+        <div class="content">
+            <div class="caption">Exploring Urban Development - A Civil Engineer's Perspective</div>
+            <a href="#about" class="arrow">&#x25BC;</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>A graduate student in civil engineering with a passion for understanding urban development and creating more efficient and comfortable cities for everyone. This is a space where I share my journey and insights into making cities better places to live.</p>
+        </div>
+    </section>
+
+    <section id="metro" class="parallax-section">
+        <div class="parallax-bg"></div>
+    </section>
+
+    <section id="projects">
+        <h2>My projects</h2>
+        <div class="project-grid">
+                <div class="project-item">
+                    <a href="documents/Perspective Drawing (1 point).pdf" target="_blank">
+                        <img src="images/1point.jpg" alt="Perspective Drawing (1 point)">
+                        <div class="pdf-overlay">Perspective Drawing (1 point)</div>
+                    </a>
+            </div>
+                <div class="project-item">            
+                <a href="documents/City Perspective Drawing by 1 point (Bird_s Eye View).pdf" target="_blank">
+                    <img src="images/City Perspective Dwg.jpg" alt="City Perspective Drawing">
+                    <div class="pdf-overlay">City Perspective Drawing by 1 point (Bird's Eye View)</div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="documents/Perspective Drawing (2 point).pdf" target="_blank">
+                    <img src="images/2point.jpg" alt="Perspective Drawing (2 point)">
+                    <div class="pdf-overlay">Perspective Drawing (2 point)</div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="documents/Elevation Drawing.pdf" target="_blank">
+                    <img src="images/Elevation.jpg" alt="Elevation Drawing">
+                    <div class="pdf-overlay">Elevation Drawing</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-bg" class="parallax-section">
+        <div class="parallax-bg"></div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <div class="contact-icons">
+                <a href="mailto:manasiusolanki%40gmail.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/manasi-solanki-9358a9248/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
